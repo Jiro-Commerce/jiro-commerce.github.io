@@ -322,7 +322,7 @@ td, th {
   box-sizing: border-box; }
 
 body {
-  color: #525252;
+  color: #4a4a4a;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   background: #fff url('/assets/img/cloud-bar.png') repeat-x;
@@ -1079,7 +1079,7 @@ footer.main {
       margin: 0 18px; }
       footer.main > ul > li > a {
         font-size: 16px;
-        color: #525252; }
+        color: #4a4a4a; }
         footer.main > ul > li > a:hover {
           color: #f4645f; }
   footer.main p {
@@ -1087,7 +1087,7 @@ footer.main {
     font-size: 16px;
     margin-bottom: 10px; }
     footer.main p a {
-      color: #525252; }
+      color: #4a4a4a; }
       footer.main p a:hover {
         color: #f4645f; }
   footer.main p.less-significant a {
@@ -1105,13 +1105,14 @@ nav.main {
   display: table;
   height: 90px;
   width: 100%;
-  border-bottom: 1px solid #dee0df; }
+  border-bottom: 1px solid #aeaeae;
+  background-color: #b0b4bd; }
   nav.main:after {
     content: "";
     display: table;
     clear: both; }
   nav.main a.brand {
-    color: #e74430;
+    color: #4a4a4a;
     font-size: 21px;
     float: left;
     line-height: 90px;
@@ -1132,7 +1133,7 @@ nav.main {
       nav.main ul.main-nav > li > a {
         line-height: 90px;
         font-size: 16px;
-        color: #525252; }
+        color: #4a4a4a; }
         nav.main ul.main-nav > li > a:hover {
           color: #f4645f; }
       nav.main ul.main-nav > li.active a {
@@ -1155,7 +1156,7 @@ nav.main {
         nav.main .switcher .dropdown-menu > li:last-child {
           border: none; }
       nav.main .switcher .dropdown-menu > li > a {
-        color: #525252;
+        color: #4a4a4a;
         padding: 10px 20px;
         text-align: center; }
 
@@ -1219,7 +1220,7 @@ nav.main {
       font-weight: 100;
       -webkit-font-smoothing: subpixel-antialiased; }
     .panel.statement p.caption {
-      color: #525252;
+      color: #4a4a4a;
       font-size: 18px; }
     .panel.statement .browser-window {
       display: block;
@@ -1296,7 +1297,7 @@ nav.main {
         .panel.ecosystem .forge .content img {
           margin-bottom: 15px; }
       .panel.ecosystem .forge p {
-        color: #525252;
+        color: #4a4a4a;
         font-size: 16px; }
     .panel.ecosystem .tiles {
       max-width: 1080px;
@@ -1307,7 +1308,7 @@ nav.main {
         display: table;
         clear: both; }
       .panel.ecosystem .tiles .tile {
-        border: 1px solid #dee0df;
+        border: 1px solid #b0b4bd;
         padding: 25px 15px;
         border-radius: 4px;
         width: 30%;
@@ -1322,7 +1323,7 @@ nav.main {
           font-weight: 400; }
         .panel.ecosystem .tiles .tile p {
           font-size: 16px;
-          color: #525252; }
+          color: #4a4a4a; }
   .panel .next-up {
     position: absolute;
     bottom: 50px;
@@ -1479,6 +1480,81 @@ nav.main {
   background: #fff;
   margin: 0; }
 
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   css3-prefix             - arguments: Property, Value
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-horizontal   - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   background-opacity      - arguments: Color: #000, Opacity: .85
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Right: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transform-style         - arguments: Style: preserve-3d
+    -   transition              - Default arguments: What: all, Length: 1s, Easing: ease-in-out
+    -                            - Examples: @include transition (all 2s ease-in-out);
+    -                                        @include transition (opacity 1s ease-in 2s, width 2s ease-out);
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+    -   keyframes               - arguments: Animation name
+                                - content:   Animation css
+    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
+                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
+
+------------------------------------------------------------- */
+/* ADDS A BROWSER PREFIX TO THE PROPERTY */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BACKGROUND COLOR OPACITY */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSFORM STYLE */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+/* KEYFRAMES */
+/* ANIMATION */
 .docs article {
   padding: 25px 50px 50px;
   margin-left: 300px; }
@@ -1503,7 +1579,7 @@ nav.main {
     font-weight: 400;
     position: relative; }
     .docs article h2 a, .docs article h2 a:hover {
-      color: #525252;
+      color: #4a4a4a;
       text-decoration: none; }
     .docs article h2 a:before {
       content: "#";
@@ -1530,7 +1606,7 @@ nav.main {
     width: 100%;
     font-size: 14px; }
     .docs article table th, .docs article table td {
-      border: 1px solid #dee0df;
+      border: 1px solid #b0b4bd;
       padding: 10px;
       text-align: left; }
     .docs article table th {
@@ -1569,3 +1645,8 @@ body.the-404 .contain {
   body.the-404 .contain .content, body.the-404 .contain .media {
     display: table-cell;
     vertical-align: middle; }
+
+.home #home-logo {
+  max-width: 170px; }
+.home #first-panel {
+  background-color: #44464c; }

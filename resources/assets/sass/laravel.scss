@@ -19,7 +19,9 @@
 @import "components/panels";    // homepage blocks
 @import "components/sidebar";   // docs side nav
 @import "components/windows";   // browser + terminal containers
+@import "components/css3-mixins";
 
 // content
 @import "content/docs";
 @import "content/404";
+@import "content/home";

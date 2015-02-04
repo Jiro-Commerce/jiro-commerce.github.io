@@ -20,40 +20,12 @@ home
 
 </nav>
 
-<section class="panel statement light">
+<section class="panel statement light" id="first-panel">
 	<div class="content">
-		<h1>Love beautiful code? We do too.</h1>
-		<p>The PHP Framework for Web Artisans</p>
-		<div class='browser-window'>
-			<div class='top-bar'>
-				<div class='circles'>
-					<div class="circle circle-red"></div>
-					<div class="circle circle-yellow"></div>
-					<div class="circle circle-green"></div>
-				</div>
-			</div>
-			<div class='window-content'>
-				<pre class="line-numbers"><code class="language-php">
-&lt;?php
 
+		<img src="/assets/img/jiro-logo-large.png" id="home-logo" alt="Jiro PHP e-commerce framework" />
 
-class Idea extends Eloquent {
-
-	/**
-	 * Dreaming of something more?
-	 *
-	 * @with Laravel
-	 */
-	 public function create()
-	 {
-	 	// Have a fresh start...
-	 }
-
-}
-
-	</code></pre>
-				</div>
-			</div>
+		<!--<p>The E-Commerce Framework for Web Artisans</p>-->
 
 		</div>
 	</div>

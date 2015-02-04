@@ -4,10 +4,11 @@ nav.main {
 	display: table;
 	height: 90px;
 	width: 100%;
-	border-bottom: 1px solid $color__lighter_gray;
+	border-bottom: 1px solid $color__light_gray;
+	background-color: $color__lighter_gray;
 
 	a.brand {
-		color: $color__darker_salmon;
+		color: $color__gray;
 		font-size: 21px;
 		float: left;
 		line-height: 90px;

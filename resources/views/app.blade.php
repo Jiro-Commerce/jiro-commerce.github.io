@@ -21,8 +21,8 @@
 	<nav class="main">
 		<div class="container">
 			<a href="/" class="brand">
-				<img src="/assets/img/laravel-logo.png" height="30">
-				Laravel
+				<img src="/assets/img/jiro-logo-small.png" height="30">
+				Jiro
 			</a>
 			
 			<div class="responsive-sidebar-nav">

@@ -1,0 +1,10 @@
+/vendor
+/resources/docs
+/public/api
+/build/sami/build
+/build/sami/cache
+/node_modules
+composer.phar
+.env.*
+.DS_Store
+Thumbs.db

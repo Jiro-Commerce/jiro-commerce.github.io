@@ -43,7 +43,7 @@ class Documentation {
 		return $this->cache->remember('docs.'.$version.'.index', 5, function() use ($version) 
 		{
 			$path = base_path('resources/Documentation/'.$version.'/documentation.md');
-
+dd($path);
 			if ($this->files->exists($path)) 
 			{
 				return markdown($this->files->get($path));
@@ -65,7 +65,7 @@ class Documentation {
 		return $this->cache->remember('docs.'.$version.'.'.$page, 5, function() use ($version, $page) 
 		{
 			$path = base_path('resources/Documentation/'.$version.'/'.$page.'.md');
-			
+			dd($path);
 			if ($this->files->exists($path)) 
 			{
 				return markdown($this->files->get($path));

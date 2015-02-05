@@ -7,8 +7,8 @@ nav.main {
 	border-bottom: 1px solid $color__light_gray;
 	background-color: $color__lighter_gray;
 
-	.dropdown-menu {
-		background-color: $color__light_gray;
+	.btn {
+		background-color: $color__dark_teal;
 	}
 
 	a.brand {
@@ -21,7 +21,7 @@ nav.main {
 			position: relative;
 			top: 16px;
 			margin-right: 0px;
-			width: 45px;
+			width: 125px;
 			height: auto;			
 		}
 	}

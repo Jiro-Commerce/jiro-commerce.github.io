@@ -5,7 +5,7 @@
 	
 	<div class="brand">
 		<a href="/">
-			<img src="/assets/img/laravel-logo-white.png" height="50">
+			<img src="/assets/img/logo-greyscale-isolated.png" height="85">
 		</a>
 	</div>
 

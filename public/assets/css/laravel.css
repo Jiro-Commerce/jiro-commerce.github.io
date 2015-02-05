@@ -334,8 +334,9 @@ body {
   margin: 0 auto; }
 
 a {
-  color: #f4645f;
-  text-decoration: none; }
+  color: #169a90;
+  text-decoration: none;
+  transition: .18s linear all; }
 
 h1 {
   font-size: 48px;
@@ -351,7 +352,7 @@ p {
 
 p code {
   background: #f0f2f1;
-  color: #f4645f;
+  color: #169a90;
   padding: 1px 5px;
   border-radius: 3px; }
 
@@ -360,7 +361,7 @@ code, kbd, pre, samp {
   font-size: 14px; }
 
 blockquote {
-  background: #f4645f;
+  background: #169a90;
   color: #fff;
   border-radius: 3px;
   margin: 10px 0 20px;
@@ -974,7 +975,7 @@ pre.line-numbers > code {
     cursor: help; }
 
 .slide-menu {
-  background: #f4645f;
+  background: #169a90;
   padding: 0 20px; }
   .slide-menu h2 {
     color: #fff;
@@ -1111,8 +1112,8 @@ nav.main {
     content: "";
     display: table;
     clear: both; }
-  nav.main .dropdown-menu {
-    background-color: #aeaeae; }
+  nav.main .btn {
+    background-color: #169a90; }
   nav.main a.brand {
     color: #4a4a4a;
     font-size: 25px;
@@ -1123,7 +1124,7 @@ nav.main {
       position: relative;
       top: 16px;
       margin-right: 0px;
-      width: 45px;
+      width: 125px;
       height: auto; }
   nav.main ul.main-nav {
     list-style: none;
@@ -1437,7 +1438,7 @@ nav.main {
   .sidebar a {
     line-height: 1.5; }
     .sidebar a:hover {
-      color: #e74430; }
+      color: #4a4a4a; }
 
 @media (max-width: 1080px) {
   .sidebar {

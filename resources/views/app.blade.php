@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Laravel 5</title>
+	<title>Jiro PHP E-Commerce Framework</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="author" content="Taylor Otwell">
-	<meta name="description" content="Laravel - The PHP framework for web artisans.">
-	<meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
+	<meta name="author" content="Andrew McLagan">
+	<meta name="description" content="Jiro - The PHP E-Commerce framework for web artisans.">
+	<meta name="keywords" content="jiro, e-commerce, cart, laravel, php, framework, web, andrew mclagan">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--[if lte IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,8 +21,7 @@
 	<nav class="main">
 		<div class="container">
 			<a href="/" class="brand">
-				<img src="/assets/img/jiro-logo-small.png" height="30">
-				Jiro
+				<img alt="Jiro PHP e-commerce framework" src="/assets/img/jiro-logo-small.png" height="30">
 			</a>
 			
 			<div class="responsive-sidebar-nav">
@@ -45,7 +44,8 @@
 		<ul>
 			@include('partials.main-nav')
 		</ul>
-		<p>Laravel is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
+		<p><a href="http://github.com/jiro-commerce">Jiro</a> is for the community by the community. Power to the people.</p>
+		<p><a href="http://laravel.com">Laravel</a> is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
 		<p class="less-significant"><a href="http://jackmcdade.com">Design by Jack McDade</a></p>
 	</footer>
 	<script src="/assets/js/laravel.js"></script>

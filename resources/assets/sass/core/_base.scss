@@ -26,9 +26,9 @@ body {
 }
 
 a {
-	color: $color__salmon;
+	color: $color__dark_teal;
 	text-decoration: none;
-	// transition: .15s linear all;
+	transition: .18s linear all;
 }
 
 h1 {
@@ -48,7 +48,7 @@ p {
 
 p code {
 	background: $color__faint;
-	color: $color__salmon;
+	color: $color__dark_teal;
 	padding: 1px 5px;
 	border-radius: 3px;
 }
@@ -59,7 +59,7 @@ code, kbd, pre, samp {
 }
 
 blockquote {
-	background: $color__salmon;
+	background: $color__dark_teal;
 	color: #fff;
 	border-radius: 3px;
 	margin: 10px 0 20px;

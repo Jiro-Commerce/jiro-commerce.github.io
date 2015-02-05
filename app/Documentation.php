@@ -39,12 +39,16 @@ class Documentation {
 	 * @return string
 	 */
 	public function getIndex($version)
-	{
-		return $this->cache->remember('docs.'.$version.'.index', 5, function() use ($version) {
+	{ 
+		return $this->cache->remember('docs.'.$version.'.index', 5, function() use ($version) 
+		{
 			$path = base_path('resources/Documentation/'.$version.'/documentation.md');
-			if ($this->files->exists($path)) {
+
+			if ($this->files->exists($path)) 
+			{
 				return markdown($this->files->get($path));
 			}
+
 			return null;
 		});
 	}
@@ -62,9 +66,11 @@ class Documentation {
 		{
 			$path = base_path('resources/Documentation/'.$version.'/'.$page.'.md');
 			
-			if ($this->files->exists($path)) {
+			if ($this->files->exists($path)) 
+			{
 				return markdown($this->files->get($path));
 			}
+			
 			return null;
 		});
 	}

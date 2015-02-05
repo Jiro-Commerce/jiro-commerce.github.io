@@ -1088,9 +1088,19 @@ footer.main {
     font-size: 16px;
     margin-bottom: 10px; }
     footer.main p a {
-      color: #4a4a4a; }
+      color: #169a90; }
       footer.main p a:hover {
         color: #17c6b9; }
+  footer.main .copyleft {
+    position: relative;
+    margin: 0 3px;
+    font-weight: bold; }
+    footer.main .copyleft span {
+      position: absolute;
+      left: 4px;
+      top: -4px; }
+  footer.main .copyright {
+    font-size: 21px; }
   footer.main p.less-significant a {
     color: #c8c8c8;
     font-size: 14px; }
@@ -1137,7 +1147,7 @@ nav.main {
       margin: 0 15px; }
       nav.main ul.main-nav > li > a {
         line-height: 90px;
-        font-size: 16px;
+        font-size: 18px;
         color: #4a4a4a; }
         nav.main ul.main-nav > li > a:hover {
           color: #169a90; }

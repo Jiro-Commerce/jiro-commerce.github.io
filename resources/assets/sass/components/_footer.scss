@@ -22,11 +22,24 @@ footer.main {
 		font-size: 16px;
 		margin-bottom: 10px;
 		a {
-			color: $color__gray;
+			color: $color__dark_teal;
 			&:hover {
 				color: $color__teal;
 			}
 		}
+	}
+	.copyleft {
+		position: relative;
+		margin: 0 3px;
+		font-weight: bold;
+		span {
+			position: absolute;
+			left: 4px;
+			top: -4px;	
+		}
+	}
+	.copyright {
+		font-size: 21px;
 	}
 	
 	p.less-significant a {

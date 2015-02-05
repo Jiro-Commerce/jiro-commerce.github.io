@@ -44,8 +44,8 @@
 		<ul>
 			@include('partials.main-nav')
 		</ul>
-		<p><a href="http://github.com/jiro-commerce">Jiro</a> is for the community by the community. Power to the people.</p>
-		<p><a href="http://laravel.com">Laravel</a> is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
+		<p><a href="http://github.com/jiro-commerce">Jiro</a> is for the community by the community. Copyleft <span class="copyleft">&xcirc;<span>&#8835;</span></span> <a href="https://github.com/andrewmclagan">Andrew McLagan</a>.</p>
+		<p><a href="http://laravel.com">Laravel</a> is a trademark of Taylor Otwell. Copyright <span class="copyright">&copy;</span> <a href="https://github.com/taylorotwell">Taylor Otwell</a>.</p>
 		<p class="less-significant"><a href="http://jackmcdade.com">Design by Jack McDade</a></p>
 	</footer>
 	<script src="/assets/js/laravel.js"></script>

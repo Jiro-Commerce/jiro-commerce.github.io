@@ -1,19 +1,19 @@
 #!/bin/bash
 
-cd /app/build/sami
+cd build/sami
 
-rm -rf /app/build/sami/build
-rm -rf /app/build/sami/cache
+rm -rf build/sami/build
+rm -rf build/sami/cache
 
 # Run API Docs
-git clone https://github.com/laravel/framework.git /app/build/sami/laravel
+git clone https://github.com/laravel/framework.git build/sami/laravel
 
-php /app/vendor/bin/sami.php update /app/build/sami/sami.php
+php vendor/bin/sami.php update build/sami/sami.php
 
-cp -r /app/build/sami/build/* /app/public/api
+cp -r build/sami/build/* /app/public/api
 
-rm -rf /app/build/sami/build
-rm -rf /app/build/sami/cache
+rm -rf build/sami/build
+rm -rf build/sami/cache
 
 # Cleanup
-rm -rf /app/build/sami/laravel
+rm -rf build/sami/laravel

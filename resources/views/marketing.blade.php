@@ -25,7 +25,7 @@ home
 
 		<img src="/assets/img/jiro-logo-large.png" id="home-logo" alt="Jiro PHP e-commerce framework" />
 
-		<!--<p>The E-Commerce Framework for Web Artisans</p>-->
+		<p>The E-Commerce Framework for Web Artisans</p>
 
 		</div>
 	</div>

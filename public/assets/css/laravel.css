@@ -1119,8 +1119,10 @@ nav.main {
     margin-right: 30px; }
     nav.main a.brand img {
       position: relative;
-      top: 7px;
-      margin-right: 15px; }
+      top: 17px;
+      margin-right: 2px;
+      width: 45px;
+      height: auto; }
   nav.main ul.main-nav {
     list-style: none;
     display: inline-block;
@@ -1650,3 +1652,6 @@ body.the-404 .contain {
   max-width: 170px; }
 .home #first-panel {
   background-color: #44464c; }
+  .home #first-panel p {
+    color: #90939b;
+    margin: 27px 0 20px; }

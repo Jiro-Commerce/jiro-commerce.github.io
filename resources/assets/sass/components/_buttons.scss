@@ -1,7 +1,7 @@
 .btn {
 	border: none;
 	border-radius: 3px;
-	background: $color__salmon;
+	background: $color__dark_teal;
 	color: #fff;
 	padding: 10px 15px;
 	font-size: 16px;
@@ -9,7 +9,7 @@
 		color: rgba(255,255,255,.5);
 	}
 	&:hover, &:active {
-		background: $color__darker_salmon;
+		background: $color__teal;
 		color: #fff;
 	}
 }

@@ -30,14 +30,14 @@ home
 		</div>
 	</div>
 	<a href="#features" class="next-up">
-		Powerful, Modern Features
+		Find out more
 		<img src="/assets/img/down-arrow.png">
 	</a>
 </section>
 
 <section class="panel features dark" id="features">
-	<h1>Did someone say rapid?</h1>
-	<p>Elegant applications delivered at warp speed.</p>
+	<h1>We are still in development!</h1>
+	<p>Jiro is still very new. Why not get involved!?</p>
 		<div class="blocks stacked">
 			<div class="block odd">
 				<div class="text">

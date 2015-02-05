@@ -12,7 +12,7 @@ footer.main {
 				font-size: 16px;
 				color: $color__gray;
 				&:hover {
-					color: $color__salmon;
+					color: $color__teal;
 				}
 			}
 		}
@@ -24,7 +24,7 @@ footer.main {
 		a {
 			color: $color__gray;
 			&:hover {
-				color: $color__salmon;
+				color: $color__teal;
 			}
 		}
 	}
@@ -33,7 +33,7 @@ footer.main {
 		color: lighten(#AEAEAE, 10%);
 		font-size: 14px;
 		&:hover {
-			color: $color__salmon;
+			color: $color__teal;
 		}
 	}
 }

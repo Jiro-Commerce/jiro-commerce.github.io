@@ -1326,20 +1326,6 @@ pre.line-numbers > code {
   .btn:hover, .btn:active {
     background: #17c6b9;
     color: #fff; }
-  .btn.btn-circle {
-    border: 1px solid #17c6b9;
-    border-radius: 55px;
-    color: #17c6b9;
-    background: transparent;
-    padding: 14px 36px;
-    text-transform: uppercase;
-    margin: 30px auto;
-    width: 190px;
-    display: block;
-    transition: all 0.4s; }
-    .btn.btn-circle:hover {
-      background: #17c6b9;
-      color: white; }
 
 footer.main {
   background: #fafafa;
@@ -1389,8 +1375,8 @@ nav.main {
   display: table;
   height: 90px;
   width: 100%;
-  border-bottom: 1px solid #f0f0f0;
-  background-color: #fff; }
+  border-bottom: 1px solid #aeaeae;
+  background-color: #b0b4bd; }
   nav.main:after {
     content: "";
     display: table;
@@ -1521,12 +1507,15 @@ nav.main {
       margin: 0 0 20px 0;
       text-align: center; }
     .panel.features .blocks {
-      max-width: 1200px;
+      max-width: 900px;
+      background: #fff;
       margin: 50px auto;
-      border-radius: 4px; }
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
       .panel.features .blocks .block {
-        border-bottom: 5px solid rgba(255, 255, 255, 0.4);
-        height: 225px; }
+        border-bottom: 1px solid #dbdcdb;
+        height: 225px;
+        overflow: hidden; }
         .panel.features .blocks .block:after {
           content: "";
           display: table;
@@ -1542,7 +1531,8 @@ nav.main {
         .panel.features .blocks .block .media {
           float: right;
           padding-top: 20px;
-          width: 40%; }
+          width: 40%;
+          overflow: hidden; }
           .panel.features .blocks .block .media .browser-window {
             width: 400px; }
         .panel.features .blocks .block.even .text {
@@ -1935,40 +1925,9 @@ body.the-404 .contain {
   max-width: 170px; }
 
 .home #first-panel {
-  background-color: #FFF; }
+  background-color: #44464c; }
   .home #first-panel p {
     color: #90939b;
     margin: 27px 0 20px; }
 
-.home #features > .blocks {
-  margin-top: 130px; }
-  .home #features > .blocks .block {
-    border-bottom: 5px solid rgba(255, 255, 255, 0.4);
-    height: 260px;
-    margin-bottom: 50px; }
-
-.home #features > p {
-  max-width: 1200px;
-  margin: 0 auto; }
-
-.home #features .media {
-  position: relative; }
-  .home #features .media img {
-    position: absolute; }
-  .home #features .media img.packages {
-    top: -60px;
-    width: 450px;
-    opacity: 0.8; }
-  .home #features .media img.e-commerce {
-    top: -11px;
-    width: 480px;
-    opacity: 0.9; }
-  .home #features .media img.code {
-    top: -18px;
-    width: 430px;
-    opacity: 0.8; }
-
-.home #features .browser-window {
-  height: 216px; }
-
-/*# sourceMappingURL=laravel.css.map */
+/*# sourceMappingURL=app.css.map */

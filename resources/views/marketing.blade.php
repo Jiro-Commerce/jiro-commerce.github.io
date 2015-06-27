@@ -36,107 +36,54 @@ home
 </section>
 
 <section class="panel features dark" id="features">
-	<h1>We are still in development!</h1>
-	<p>Jiro is still very new. Why not get involved!?</p>
+	
+	<h1>We are still in development</h1>
+	<p>Jiro is in the very early stages of development, we need community participation and contributions. Lend us a hand and become part of something big while we are at ground zero.</p>
+	<a href="https://github.com/Jiro-Commerce/Jiro/blob/master/readme.md" class="btn btn-circle">Get Involved &rarr;</a>
+
 		<div class="blocks stacked">
 			<div class="block odd">
 				<div class="text">
-					<h2>Expressive, beautiful syntax.</h2>
-					<p>Value elegance, simplicity, and readability? You’ll fit right in. Laravel is designed for people just like you. If you need help getting started, check out <a href="https://laracasts.com">Laracasts</a> and our <a href="/docs">great documentation</a>.</p>
+					<h2>Modular, package based architecture.</h2>
+					<p>Our paradigm is based around the principal that e-commerce requirements are very unique to each project and a modular approach gives developers the opportunity to build applications tailored to their needs.</p>
 				</div>
 				<div class="media">
 
-					<div class='browser-window'>
-						<div class='top-bar'>
-							<div class='circles'>
-								<div class="circle circle-red"></div>
-								<div class="circle circle-yellow"></div>
-								<div class="circle circle-green"></div>
-							</div>
-						</div>
-						<div class='window-content'>
-							<pre class="line-numbers"><code class="language-php">
-class Purchase implements ShouldBeQueued {
-
-	/**
-	 * Purchase a new podcast.
-	 */
-	 public function handle(Repository $repo)
-	 {
-	 	foreach ($this->purchases as $purchase)
-	 	{
-	 		//
-	 	}
-	 }
-</code></pre>
-						</div>
-					</div>
+					<img src="/assets/img/jiro-apps.png" alt="Packages" class="packages">
 
 				</div>
 			</div><!-- /.block -->
 			<div class="block even">
 				<div class="text">
-					<h2>Tailored for your team.</h2>
-					<p>Whether you're a solo developer or a 20 person team, Laravel is a breath of fresh air. Keep everyone in sync using Laravel's database agnostic <a href="/docs/migrations">migrations</a> and <a href="/docs/schema">schema builder</a>.</p>
+					<h2>The future of e-commerce</h2>
+					<p>We beieve there is a huge void in the PHP community for a viable e-commerce solution. Current offerings are based on legacy coding practices and give little room to develop important application components such as CMS and other functionality.</p>
 				</div>
 				<div class="media">
-					<div class="terminal-window">
-						<div class='top-bar'></div>
-						<div class='window-content'>
-							<div class="dark-code">
-							<pre><code class="language-bash">
-~/Apps $ php artisan make:migration create_users_table
-Migration created successfully!
+					
+					<img src="/assets/img/mbp_retina.png" alt="Packages" class="e-commerce">
 
-~/Apps $ php artisan migrate --seed
-Migrated: 2015_01_12_000000_create_users_table
-Migrated: 2015_01_12_100000_create_password_resets_table
-Migrated: 2015_01_13_162500_create_projects_table
-Migrated: 2015_01_13_162508_create_servers_table
-</code></pre></div>
-						</div>
-					</div>
 				</div>
 			</div><!-- /.block -->
 			<div class="block odd">
 				<div class="text">
-					<h2>Modern toolkit. Pinch of magic.</h2>
-					<p>An <a href="/docs/eloquent">amazing ORM</a>, painless <a href="/docs/routing">routing</a>, powerful <a href="/docs/queues">queue library</a>, and <a href="/docs/authentication">simple authentication</a> give you the tools you need for modern, maintainable PHP. We sweat the small stuff to help you deliver amazing applications.
+					<h2>Elegant and expressive code</h2>
+					<p>Jiro is developed using a BDD methodology with clean architecture in the aim of achieving great flexibility. A capable solution that scales well for enterprise and small business alike.</p>
 				</div>
 				<div class="media">
 
-					<div class='browser-window'>
-						<div class='top-bar'>
-							<div class='circles'>
-								<div class="circle circle-red"></div>
-								<div class="circle circle-yellow"></div>
-								<div class="circle circle-green"></div>
-							</div>
-						</div>
-						<div class='window-content'>
-							<pre class="line-numbers"><code class="language-php">
-Route::resource('photos', 'PhotoController');
+					<img src="/assets/img/code.png" alt="Packages" class="code">
 
-/**
- * Retrieve A User...
- */
-Route::get('/user/{id}', function($id)
-{
-	return User::with('posts')->firstOrFail($id);
-})
-</code></pre>
-					</div>
 				</div>
 			</div><!-- /.block -->
 		</div>
 		<a href="#ecosystem" class="next-up">
-			The Laravel Ecosystem
+			Part of The Laravel Ecosystem
 			<img src="/assets/img/down-arrow.png">
 		</a>
 	</section>
 
 	<section class="panel ecosystem light" id="ecosystem">
-		<h1>The Laravel Ecosystem</h1>
+		<h1>Part of The Laravel Ecosystem</h1>
 		<p>Revolutionize how you build the web.</p>
 
 		<div class="forge contain">

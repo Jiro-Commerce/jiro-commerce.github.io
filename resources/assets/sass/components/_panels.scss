@@ -62,17 +62,15 @@
 			text-align: center;
 		}
 		.blocks {
-			max-width: 900px;
-			background: #fff;
+			max-width: 1200px;
 			margin: 50px auto;
 			border-radius: 4px;
-			box-shadow: 0 1px 4px rgba(0,0,0,.2);
 
 			.block {
 				@include clearfix;
-				border-bottom: 1px solid #dbdcdb;
+				border-bottom: 5px solid rgba(255,255,255,0.4);
 				height: 225px;
-				overflow: hidden;
+
 				.text {
 					padding: 50px;
 					width: 60%;
@@ -87,7 +85,6 @@
 					float: right;
 					padding-top: 20px;
 					width: 40%;
-					overflow: hidden;
 					.browser-window {
 						width: 400px;
 					}

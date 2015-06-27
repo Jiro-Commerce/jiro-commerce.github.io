@@ -6,12 +6,55 @@
 	}
 
 	#first-panel {
-		 background-color: #44464c;
+		 background-color: #FFF;
 		//background-image: radial-gradient(at 50% -40%, rgba(255,255,255,.2) 0%, rgba(68,70,76,0) 40%);
 		p {
 			color: #90939b;
 			margin: 27px 0 20px;
 		}		
+	}
+
+	#features {
+
+		> .blocks {
+			margin-top: 130px;
+
+			.block {
+  				border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+  				height: 260px;
+  				margin-bottom: 50px;			
+			}
+		}
+
+		> p {
+			max-width: 1200px;
+  			margin: 0 auto;
+		}
+
+		.media {
+			position: relative;
+			img {
+				position: absolute;
+			}
+			img.packages {
+  				top: -60px;
+  				width: 450px;
+  				opacity: 0.8;
+  			}
+			img.e-commerce {
+  				top: -11px;
+  				width: 480px;
+  				opacity: 0.9;
+  			}  
+			img.code {
+  				top: -18px;
+  				width: 430px;
+  				opacity: 0.8;
+  			}    						
+  		}
+  		.browser-window {
+  			height: 216px;
+  		}
 	}
 
 

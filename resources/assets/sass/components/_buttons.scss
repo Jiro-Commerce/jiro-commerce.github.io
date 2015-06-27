@@ -12,4 +12,21 @@
 		background: $color__teal;
 		color: #fff;
 	}
+	&.btn-circle {
+  		border: 1px solid $color__teal;
+  		border-radius: 55px;
+  		color: $color__teal;
+  		background: transparent;
+  		padding: 14px 36px;
+  		text-transform: uppercase;
+  		margin: 30px auto;
+  		width: 190px;
+  		display: block;
+  		transition: all 0.4s;
+
+  		&:hover {
+  			background: $color__teal;
+  			color: white;
+  		}
+	}
 }

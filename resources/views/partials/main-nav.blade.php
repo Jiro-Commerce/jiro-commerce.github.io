@@ -1,5 +1,5 @@
-<li class="nav-docs"><a href="/docs">Documentation</a></li>
-<li class="nav-api"><a href="#">API</a></li>
+<li class="nav-docs"><a href="/#features">Documentation</a></li>
+<li class="nav-api"><a href="/#features">API</a></li>
 
 <li class="dropdown community-dropdown">
 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community <span class="caret"></span></a>

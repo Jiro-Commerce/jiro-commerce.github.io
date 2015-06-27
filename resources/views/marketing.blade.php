@@ -38,7 +38,7 @@ home
 <section class="panel features dark" id="features">
 	
 	<h1>We are still in development</h1>
-	<p>Jiro is in the very early stages of development, we need community participation and contributions. Lend us a hand and become part of something big while we are at ground zero.</p>
+	<p>Jiro is in the very early stages of development, we need community participation and contributions. <strong>Lend us a hand</strong>strong> and become part of something big whilst we are at ground zero.</p>
 	<a href="https://github.com/Jiro-Commerce/Jiro/blob/master/readme.md" class="btn btn-circle">Get Involved &rarr;</a>
 
 		<div class="blocks stacked">

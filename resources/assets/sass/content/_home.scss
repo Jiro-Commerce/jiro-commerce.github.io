@@ -56,6 +56,32 @@
   			height: 216px;
   		}
 	}
+}
 
-
+@media (max-width: 780px) {
+  	.home {
+		#features {
+			> .blocks .block {
+				height: auto;
+			}
+			> .blocks {
+				margin-top: 30px;
+			}
+			.media {
+				text-align: center;
+			}
+			.media img {
+				position: static;
+				display: inline-block;
+			}
+		}
+	}
+}
+@media (max-width: 980px) {
+	.panel .next-up {
+	  width: 100%;
+	  text-align: center;
+	  left: 0;
+	  margin-left: 0;
+	}
 }

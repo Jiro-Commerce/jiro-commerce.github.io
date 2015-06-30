@@ -1971,4 +1971,22 @@ body.the-404 .contain {
 .home #features .browser-window {
   height: 216px; }
 
+@media (max-width: 780px) {
+  .home #features > .blocks .block {
+    height: auto; }
+  .home #features > .blocks {
+    margin-top: 30px; }
+  .home #features .media {
+    text-align: center; }
+  .home #features .media img {
+    position: static;
+    display: inline-block; } }
+
+@media (max-width: 980px) {
+  .panel .next-up {
+    width: 100%;
+    text-align: center;
+    left: 0;
+    margin-left: 0; } }
+
 /*# sourceMappingURL=laravel.css.map */

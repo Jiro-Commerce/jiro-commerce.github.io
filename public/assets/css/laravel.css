@@ -1975,7 +1975,7 @@ body.the-404 .contain {
   .home #features > .blocks .block {
     height: auto; }
   .home #features > .blocks {
-    margin-top: 30px; }
+    margin-top: 162px; }
   .home #features .media {
     text-align: center; }
   .home #features .media img {
@@ -1988,5 +1988,23 @@ body.the-404 .contain {
     text-align: center;
     left: 0;
     margin-left: 0; } }
+
+#mc_embed_signup {
+  margin: 60px 0; }
+  #mc_embed_signup .form-group {
+    text-align: center; }
+  #mc_embed_signup #mce-EMAIL {
+    width: 350px;
+    height: 52px;
+    font-size: 19px;
+    padding: 0 25px;
+    border-radius: 3px;
+    border: 0;
+    color: #169a90; }
+  #mc_embed_signup .btn-circle {
+    display: inline;
+    border-radius: 3px;
+    margin: 0;
+    vertical-align: top; }
 
 /*# sourceMappingURL=laravel.css.map */

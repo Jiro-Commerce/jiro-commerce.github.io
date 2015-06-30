@@ -65,7 +65,7 @@
 				height: auto;
 			}
 			> .blocks {
-				margin-top: 30px;
+				margin-top: 162px;
 			}
 			.media {
 				text-align: center;
@@ -83,5 +83,29 @@
 	  text-align: center;
 	  left: 0;
 	  margin-left: 0;
+	}
+}
+
+#mc_embed_signup {
+
+	margin: 60px 0;
+
+	.form-group {
+		text-align: center;
+	}
+	#mce-EMAIL {
+		width: 350px;
+  		height: 52px;
+  		font-size: 19px;
+  		padding: 0 25px;
+  		border-radius: 3px;
+  		border: 0;
+  		color: $color__dark_teal;		
+	}
+	.btn-circle {
+		display: inline;
+		border-radius: 3px;
+		margin: 0;
+		vertical-align: top;
 	}
 }

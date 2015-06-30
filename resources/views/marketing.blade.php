@@ -38,8 +38,8 @@ home
 <section class="panel features dark" id="features">
 	
 	<h1>We are still in development</h1>
-	<p>Jiro is in the very early stages of development, we need community participation and contributions. <strong>Lend us a hand</strong> and become part of something big whilst we are at ground zero.</p>
-	<a href="https://github.com/Jiro-Commerce/Jiro/blob/master/readme.md" class="btn btn-circle">Get Involved &rarr;</a>
+	<p>Jiro is in the very early stages of development, we need community participation and contributions. <a href="https://github.com/Jiro-Commerce/Jiro/blob/master/readme.md">Lend us a hand</a> and become part of something big whilst we are at ground zero.</p>
+	@include('partials.mail-chimp')
 
 		<div class="blocks stacked">
 			<div class="block odd">
